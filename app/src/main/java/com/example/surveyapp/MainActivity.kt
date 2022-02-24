@@ -53,19 +53,21 @@ An example layout is shown below with 16 yes votes and 17 no votes.  If the rese
         yesCountText.text = getString(R.string.yes_count_text, initialCount)
 
         yesButton.setOnClickListener {
-            yesCount ++
+            surveyAppViewModel.updateYesCount()
+            val yesCount = surveyAppViewModel.yesCount
             yesCountText.text = getString(R.string.yes_count_text, yesCount)
         }
 
         noButton.setOnClickListener {
-            noCount ++
+            surveyAppViewModel.updateNoCount()
+            val noCount = surveyAppViewModel.noCount
             noCountText.text = getString(R.string.no_count_text, noCount)
         }
 
         resetButton.setOnClickListener {
-            noCount = 0
-            yesCount = 0
-            noCountText.text = getString(R.string.no_count_text, noCount)
+            surveyAppViewModel.resetCounts()
+            yesCountText.text = getString(R.string.no_count_text, surveyAppViewModel.noCount)
+            noCountText.text = getString(R.string.yes_count_text, surveyAppViewModel.yesCount)
         }
 
     }

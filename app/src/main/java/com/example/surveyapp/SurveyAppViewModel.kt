@@ -9,17 +9,21 @@ class SurveyAppViewModel : ViewModel() {
     var yesCount = 0
     var noCount = 0
 
-    // set up functions here in the viewModel that will be called from the main program
+    // set up functions here in the viewModel that
+    // will be called from the main program
 
 
     fun updateYesCount() {
         yesCount++
-        yesCountText.text = getString(R.string.yes_count_text, yesCount)
     }
 
     fun updateNoCount() {
         noCount++
-        yesCountText.text = getString(R.string.no_count_text, noCount)
+    }
+
+    fun resetCounts() {
+        yesCount = 0
+        noCount = 0
     }
 
 }
