@@ -51,8 +51,8 @@ class SurveyResultActivity : AppCompatActivity() {
 
         // set up event listeners for reset button (set counts to zero)
         resetButton.setOnClickListener {
-            yesCountText.setText(0)
-            noCountText.setText(0)
+            yesCountText.setText("0")
+            noCountText.setText("0")
         }
         // continue to survey (to send user back to survey)
         continueSurveyButton.setOnClickListener {
