@@ -2,10 +2,10 @@ package com.example.surveyapp
 
 import android.content.Context
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 
 // create an extra to retrieve the data from mainActivity into SurveyResultsActivity
