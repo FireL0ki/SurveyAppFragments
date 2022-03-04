@@ -10,5 +10,10 @@
     <string name="no_count_text">%1$d</string>
 
     <string name="reset_button_text">Reset Count</string>
+    <string name="results_button_text">Results</string>
+    <string name="yes_votes_label">Yes Votes</string>
+    <string name="no_votes_label">No Votes</string>
+    <string name="continue_survey_button_text">Continue Survey</string>
+    <string name="reset_button">Reset</string>
 
 </resources>
