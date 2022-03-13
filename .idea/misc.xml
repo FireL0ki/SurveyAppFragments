@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/Users/muell/AndroidStudioProjects/SurveyApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/muell/AndroidStudioProjects/SurveyApp/app/src/main/res/layout/activity_survey_result.xml" value="0.33" />
+        <entry key="..\:/Users/muell/AndroidStudioProjects/SurveyApp_Fragments/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/muell/AndroidStudioProjects/SurveyApp_Fragments/app/src/main/res/layout/activity_result_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/muell/AndroidStudioProjects/SurveyApp_Fragments/app/src/main/res/layout/activity_survey_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/muell/AndroidStudioProjects/SurveyApp_Fragments/app/src/main/res/layout/activity_survey_result.xml" value="0.25" />
       </map>
     </option>
   </component>

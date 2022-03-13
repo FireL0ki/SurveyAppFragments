@@ -16,7 +16,6 @@ const val EXTRA_NO_COUNT = ".com.example.surveyapp.noCount"
 // two buttons: resetButton -- reset counts to zero
 // continueSurveyButton -- returns user to the survey activity, keeps same totals
 
-
 class SurveyResultActivity : AppCompatActivity() {
 
     private lateinit var yesCountText: TextView
@@ -71,6 +70,5 @@ class SurveyResultActivity : AppCompatActivity() {
             }
         }
     }
-
 
 }
