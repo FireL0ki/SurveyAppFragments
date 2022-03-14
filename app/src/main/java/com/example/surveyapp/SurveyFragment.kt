@@ -66,7 +66,6 @@ class SurveyFragment : Fragment() {
     // TODO add functions here
 
 
-    // TODO need this?
     companion object {
         @JvmStatic
         fun newInstance() = SurveyFragment()
