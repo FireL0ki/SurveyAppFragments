@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
 //    // remove resetButton and replace with resultButton
 //    private lateinit var resultsButton: Button
 
-// moved to surveyFragment
-//    private val surveyAppViewModel: SurveyAppViewModel by lazy {
-//        ViewModelProvider(this).get(SurveyAppViewModel::class.java)
-//    }
+
+    private val surveyAppViewModel: SurveyAppViewModel by lazy {
+        ViewModelProvider(this).get(SurveyAppViewModel::class.java)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

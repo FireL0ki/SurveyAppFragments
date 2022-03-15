@@ -17,13 +17,8 @@ class SurveyFragment : Fragment() {
     private lateinit var yesCountText: TextView
     private lateinit var noCountText: TextView
 
-    // remove resetButton and replace with resultButton
     private lateinit var resultsButton: Button
 
-
-    private val surveyAppViewModel: SurveyAppViewModel by lazy {
-        ViewModelProvider(this).get(SurveyAppViewModel::class.java)
-    }
 
     override fun OnCreateView(
         inflater: LayoutInflater,
@@ -41,7 +36,6 @@ class SurveyFragment : Fragment() {
 
         resultsButton = view.findViewById(R.id.results_button)
 
-        // TODO need this ?
         val initialCount = 0
         noCountText.text = getString(R.string.no_count_text, initialCount)
         yesCountText.text = getString(R.string.yes_count_text, initialCount)
@@ -63,8 +57,7 @@ class SurveyFragment : Fragment() {
         return view
     }
 
-    // TODO add functions here
-
+    //functions here
 
     companion object {
         @JvmStatic
